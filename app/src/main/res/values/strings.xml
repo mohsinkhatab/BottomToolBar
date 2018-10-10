@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToolBar</string>
+
+    <string name="favourie">Favourite</string>
+    <string name="message">Message</string>
+    <string name="call">Call</string>
+    <string name="video">Video</string>
+
+</resources>

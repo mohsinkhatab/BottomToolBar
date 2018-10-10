@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fav"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Favourite"
+       app:showAsAction="ifRoom"
+        android:orderInCategory="60"
+        />
+
+    <item
+        android:id="@+id/msg"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="Message"
+      app:showAsAction="ifRoom"
+        android:orderInCategory="50"
+       />
+
+    <item
+        android:id="@+id/cl"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="Call"
+       app:showAsAction="ifRoom"
+        android:orderInCategory="30"
+        />
+    <item
+        android:id="@+id/video"
+        android:icon="@drawable/ic_video_call_black_24dp"
+        android:title="Video Call"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="40"
+        />
+
+</menu>
